@@ -1,7 +1,8 @@
 name: Deploy FullStackApp
 on:
     push:
-    branches: -main
+        branches:
+            - main
 
 jobs:
     build:
